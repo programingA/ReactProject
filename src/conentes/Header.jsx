@@ -34,7 +34,7 @@ function Header(){
 
     const navigate = useNavigate();
     const isValid = async () => {
-        const response = await axios.get('http://localhost:3001/posts');
+        const response = await axios.get('https://grateful-fir-jury.glitch.me/posts');
         const usersData = response.data;
         if(users.nickname !== ''){
             const foundId = usersData.findIndex(user => user.nickname === users.nickname);
@@ -43,7 +43,7 @@ function Header(){
                 setErrors(previous => ({...previous, nicknameErr:''}));
 
                 if(foundPassword === true){
-                    await axios.put('http://localhost:3001/currentUser', {
+                    await axios.put('https://grateful-fir-jury.glitch.me/currentUser', {
                         nickname: users.nickname
                     });
                     setErrors(previous => ({...previous, passwordErr:''}));

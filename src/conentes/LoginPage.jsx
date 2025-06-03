@@ -18,7 +18,7 @@ function LoginPage(){
     const [ currentUser, setCurrentUser ] = useState('');
     useEffect(() => {
         const userNickname = async () => {
-            const response = await axios.get('http://localhost:3001/currentUser');
+            const response = await axios.get('https://grateful-fir-jury.glitch.me/currentUser');
             setCurrentUser(response.data.nickname);
         };
         userNickname();

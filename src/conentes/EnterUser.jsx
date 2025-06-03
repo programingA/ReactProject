@@ -27,7 +27,7 @@ function EnterUser() {
         if(!users.nickname) {
             newErrors.nickname = "*닉네임이 입력되지 않았습니다."
         }else{
-            const response = await axios.get('http://localhost:3001/posts');
+            const response = await axios.get('https://grateful-fir-jury.glitch.me/posts');
             const usersData = response.data;
             const found = usersData.find(user => user.nickname === users.nickname);
             if (found) newErrors.nickname = "*같은 닉네임이 있습니다."
@@ -44,7 +44,7 @@ function EnterUser() {
         const isValid = await validate();
         
         if(isValid) {
-            await axios.post('http://localhost:3001/posts', {
+            await axios.post('https://grateful-fir-jury.glitch.me/posts', {
                 name: users.name,
                 nickname: users.nickname,
                 password: users.password

@@ -9,7 +9,7 @@ export default function() {
 
     useEffect(() => {
         const userChoiceWord = async () => {
-            const response = await axios.get('http://localhost:3001/userChoiceWord');
+            const response = await axios.get('https://grateful-fir-jury.glitch.me/userChoiceWord');
             setWordArr(response.data);
         }
         userChoiceWord();
