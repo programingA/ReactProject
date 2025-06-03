@@ -1,0 +1,261 @@
+{
+  "currentUser": {
+    "nickname": "d"
+  },
+  "posts": [
+    {
+      "id": "ef0e",
+      "name": "abc",
+      "nickname": "abc",
+      "password": "abc"
+    },
+    {
+      "id": "7ee1",
+      "name": "a",
+      "nickname": "a",
+      "password": "a"
+    },
+    {
+      "id": "b40e",
+      "name": "d",
+      "nickname": "d",
+      "password": "dd"
+    }
+  ],
+  "userChoiceWord": [
+    {
+      "id": "1",
+      "choice": false,
+      "word": "opening",
+      "mean": "n. 공원, 결원; 개장, 개시"
+    },
+    {
+      "id": "2",
+      "choice": false,
+      "word": "applicant",
+      "mean": "n. 지원자, 신청자"
+    },
+    {
+      "id": "3",
+      "choice": false,
+      "word": "requirement",
+      "mean": "n. 필요조건, 요건"
+    },
+    {
+      "id": "4",
+      "choice": false,
+      "word": "meet",
+      "mean": "v. (필요ㆍ요구 등을) 만족시키다"
+    },
+    {
+      "id": "5",
+      "choice": false,
+      "word": "qualified",
+      "mean": "adj. 자격 있는, 적격의"
+    },
+    {
+      "id": "6",
+      "choice": false,
+      "word": "candidate",
+      "mean": "n. 후보자, 지원자"
+    },
+    {
+      "id": "7",
+      "choice": false,
+      "word": "confidence",
+      "mean": "n. 확신, 자신; 신임"
+    },
+    {
+      "id": "8",
+      "choice": false,
+      "word": "highly",
+      "mean": "adv. 매우, 대단히"
+    },
+    {
+      "id": "9",
+      "choice": false,
+      "word": "professional",
+      "mean": "adj. 전문적인, 직업의"
+    },
+    {
+      "id": "10",
+      "choice": false,
+      "word": "interview",
+      "mean": "n. 면접 | v. 면접을 보다"
+    },
+    {
+      "id": "11",
+      "choice": false,
+      "word": "hire",
+      "mean": "v. 고용하다"
+    },
+    {
+      "id": "12",
+      "choice": false,
+      "word": "training",
+      "mean": "n. 교육, 훈련"
+    },
+    {
+      "id": "13",
+      "choice": false,
+      "word": "reference",
+      "mean": "n. 추천서; 참고"
+    },
+    {
+      "id": "14",
+      "choice": false,
+      "word": "position",
+      "mean": "n. 일자리, 직책 | v. 두다"
+    },
+    {
+      "id": "15",
+      "choice": false,
+      "word": "achievement",
+      "mean": "n. 성취, 달성"
+    },
+    {
+      "id": "16",
+      "choice": false,
+      "word": "impressed",
+      "mean": "adj. 인상 깊게 생각하는, 감명을 받은"
+    },
+    {
+      "id": "17",
+      "choice": false,
+      "word": "excellent",
+      "mean": "adj. 훌륭한, 탁월한"
+    },
+    {
+      "id": "18",
+      "choice": false,
+      "word": "eligible",
+      "mean": "adj. 자격이 있는, 적격의"
+    },
+    {
+      "id": "19",
+      "choice": false,
+      "word": "identify",
+      "mean": "v. 알아보다, 확인하다"
+    },
+    {
+      "id": "20",
+      "choice": false,
+      "word": "associate",
+      "mean": "v. 관련시키다"
+    },
+    {
+      "id": "21",
+      "choice": false,
+      "word": "condition",
+      "mean": "n. 조건"
+    },
+    {
+      "id": "22",
+      "choice": false,
+      "word": "employment",
+      "mean": "n. 고용"
+    },
+    {
+      "id": "23",
+      "choice": false,
+      "word": "lack",
+      "mean": "v. ~이 없다 n. 부족"
+    },
+    {
+      "id": "24",
+      "choice": false,
+      "word": "managerial",
+      "mean": "adj. 관리의"
+    },
+    {
+      "id": "25",
+      "choice": false,
+      "word": "diligent",
+      "mean": "adj. 성실한"
+    },
+    {
+      "id": "26",
+      "choice": false,
+      "word": "familiar",
+      "mean": "adj. 익숙한, 친숙한"
+    },
+    {
+      "id": "27",
+      "choice": false,
+      "word": "proficiency",
+      "mean": "n. 숙달, 능숙"
+    },
+    {
+      "id": "28",
+      "choice": false,
+      "word": "prospective",
+      "mean": "adj. 장래의, 미래의"
+    },
+    {
+      "id": "29",
+      "choice": false,
+      "word": "appeal",
+      "mean": "v. 관심을 끌다, 매력적이다"
+    },
+    {
+      "id": "30",
+      "choice": false,
+      "word": "specialize",
+      "mean": "v. ~을 전공하다, 전문적으로 다루다"
+    },
+    {
+      "id": "31",
+      "choice": false,
+      "word": "apprehensive",
+      "mean": "adj. 걱정하는, 염려하는"
+    },
+    {
+      "id": "32",
+      "choice": false,
+      "word": "consultant",
+      "mean": "n. 고문, 컨설턴트"
+    },
+    {
+      "id": "33",
+      "choice": false,
+      "word": "entitle",
+      "mean": "v. 자격을 주다"
+    },
+    {
+      "id": "34",
+      "choice": false,
+      "word": "degree",
+      "mean": "n. 학위"
+    },
+    {
+      "id": "35",
+      "choice": false,
+      "word": "payroll",
+      "mean": "n. 임금 대장, 급료 명부"
+    },
+    {
+      "id": "36",
+      "choice": false,
+      "word": "recruit",
+      "mean": "v. (신입 사원 등을) 모집하다"
+    },
+    {
+      "id": "37",
+      "choice": false,
+      "word": "certification",
+      "mean": "n. 증명서, 증명"
+    },
+    {
+      "id": "38",
+      "choice": false,
+      "word": "occupation",
+      "mean": "n. 직업"
+    },
+    {
+      "id": "39",
+      "choice": false,
+      "word": "wage",
+      "mean": "n. 임금, 급료"
+    }
+  ]
+}

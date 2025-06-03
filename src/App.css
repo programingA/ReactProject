@@ -1,0 +1,40 @@
+.Link{
+    position: relative;
+    text-decoration: none;
+    color: rgba(57, 57, 57, 0.432);
+    font-size: 12px;
+    right: 0px;
+}
+.menuBar{
+    position: absolute;
+    background-color: #fff538d9;
+    width: 70%;
+    height: 12%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.menuElement{
+    text-decoration: none;
+    color: rgb(49, 136, 142);
+    font-size: 17px;
+    border-radius: 10px;
+    width: 20%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuElement:hover{
+    background-color: rgb(193, 193, 241);
+    color: white;
+}
+.loginBar{
+    position: absolute;
+    background-color: rgb(214, 240, 65);
+    width: 30%;
+    height: 12%;
+    right: 0px;
+    padding: 20px;
+    display: flex;
+}

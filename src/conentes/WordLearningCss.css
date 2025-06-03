@@ -1,0 +1,47 @@
+.wordEditorBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid rgb(240, 246, 46);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.findBtn{
+    border: 2px solid rgb(62, 160, 16);
+    border-left: none;
+    background-color: rgb(181, 243, 223);
+}
+.findBtn:active{
+    background-color: rgb(249, 255, 161);
+    transform: scale(0.95);
+}
+.wordFindBox{
+    width: 230px;
+    border: 2px solid rgb(62, 160, 16);
+}
+.wordListBox{
+    border: 3px solid rgb(185, 230, 164);
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    overflow: auto;
+}
+.wordItem{
+    margin: 5px;
+    border: 1.5px solid rgb(86, 140, 4);
+}
+.wordCheckBox{
+    width: 50px;
+}
+.submitBtn{
+    border: 2px solid rgb(62, 160, 16);
+    border-radius: 10px;
+    background-color: rgba(218, 173, 147, 0.425);
+}
+.submitBtn:active{
+    background-color: rgb(218, 159, 159);
+    transform: scale(0.85);
+}
