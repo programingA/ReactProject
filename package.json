@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "start-server": "json-server --watch db.json --port 3001",
     "predeploy":"npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "homepage": "https://programingA.github.io/ReactProject/",
   "dependencies": {
