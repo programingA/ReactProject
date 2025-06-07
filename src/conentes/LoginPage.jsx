@@ -1,9 +1,10 @@
 import { React, useEffect, useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import '../App.css'
 import axios from "axios";
 
 function LoginPage(){
+    const navigate = useNavigate();
     const menuEK = [
         {
             pageName: 'WordsLearning',
@@ -34,6 +35,8 @@ function LoginPage(){
                     <b>
                         {currentUser}님 환영합니다.
                     </b>
+                    <br />
+                    <button onClick={() => (navigate('/'))}>로그아웃</button>
                 </div>
             </div>
 

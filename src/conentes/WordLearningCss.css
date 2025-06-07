@@ -45,3 +45,124 @@
     background-color: rgb(218, 159, 159);
     transform: scale(0.85);
 }
+.learningWindow{
+    position: absolute;
+    background-color: beige;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 600px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+.learningBox{
+    position: absolute;
+    border: 2px solid gray;
+    border-radius: 15px;
+    background-color: rgb(250, 250, 250);
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+}
+.learningBoxLabel{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgb(255, 247, 204);
+}
+.learningWordFont{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+}
+.answerBox{
+    position: absolute;
+    top: 80%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    border: 2px solid gray;
+}
+.answerCheckBox{
+    position: absolute;
+    top: 77.5%;
+    left: 56.4%;
+    border: 2px solid black;
+}
+.answerCheckBox:active{
+    background-color: rgb(232, 229, 156);
+    transform: scale(0.85);
+}
+.learningCloseBtn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 5px;
+}
+.learningCloseBtn:active{
+    background-color: rgb(218, 159, 159);
+    transform: scale(0.85);
+}
+.resultBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 70%;
+    height: 120%;
+    padding: 15px;
+}
+.totalListBox{
+    display: flex;
+    height: 90%;
+    overflow-y: auto;
+}
+.resultList1{
+    list-style: none;
+    padding-left: 0px;
+    height: 640px;
+    width: 50%;
+    top: 10px;
+}
+.resultList2{
+    list-style: none;
+    padding-left: 0px;
+    height: 640px;
+    width: 50%;
+}
+.resultIcon{
+    position: relative;
+    padding-left: 28px;
+}
+.resultIcon::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.resultIcon.O::before{
+    background-image: url('/images/O.png');
+}
+.resultIcon.X::before{
+    background-image: url('/images/X.png');
+}
+.retryBtn{
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+}
