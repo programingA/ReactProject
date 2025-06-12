@@ -37,7 +37,10 @@ export default function() {
     }
 
     const addUserArr = async (checked, itemId) => {
-        const updated = wordArr.map((item) => 
+        const updatedWordArr = wordArr.map((item) => 
+            item.id === itemId ? {...item, choice: checked} : item
+        );
+        const updatedUserWordArr = userWordArr.map((item) => 
             item.id === itemId ? {...item, choice: checked} : item
         );
 
@@ -52,8 +55,8 @@ export default function() {
             await axios.delete(`https://grateful-fir-jury.glitch.me/selectWords/${itemId}`)
         }
         
-        setWordArr(updated);
-        setUserWordArr(updated);
+        setWordArr(updatedWordArr);
+        setUserWordArr(updatedUserWordArr);
     };
     
     const wordLearning = async () => {
